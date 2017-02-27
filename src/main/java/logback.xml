@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <property resource="application.properties"/>
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+
+
+    <root level="error">
+        <appender-ref ref="Console"/>
+    </root>
+
+</configuration>
