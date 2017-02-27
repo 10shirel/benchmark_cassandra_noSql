@@ -17,4 +17,6 @@
 hs_err_pid*
 .idea/
 benchmark_cassandra_noSql.iml
-
+benchmark.iml
+src/main/java/com/benchmark/dao/
+target/
